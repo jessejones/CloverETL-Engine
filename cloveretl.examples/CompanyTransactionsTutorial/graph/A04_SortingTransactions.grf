@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph author="milos_kovalcik" created="Fri Jan 16 13:28:30 CET 2009" guiVersion="0.0.0.devel" id="1232110167500" licenseType="Evaluation license." modified="Fri May 15 13:53:56 CEST 2009" modifiedBy="cloveruser" name="sorting" revision="1.104">
+<Global>
+<Metadata id="Metadata7" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="CustomersForEmployees" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="EmployeeID" type="integer"/>
+<Field name="EmployeeSurname" type="string"/>
+<Field name="EmployeeFirstname" type="string"/>
+<Field name="NumberOfCustomers" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata2" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="CustomersForStates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="CustomerState" type="string"/>
+<Field name="NumberOfCustomers" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata6" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="EmployeesForCustomers" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="CustomerID" type="integer"/>
+<Field name="CustomerState" type="string"/>
+<Field name="CustomerSurname" type="string"/>
+<Field name="CustomerFirstname" type="string"/>
+<Field name="NumberOfEmployees" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachment="C:/Users/cloveruser/Desktop/mk-tw/2009-01-26/CompanyTransactions/data-in/Transactions.dat" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="Transactions" previewAttachment="C:/Users/cloveruser/Desktop/mk-tw/2009-01-26/CompanyTransactions/data-in/Transactions.dat" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" recordSize="-1" skipFirstLine="false" type="delimited">
+<Field name="AmountID" nullable="true" shift="0" skipFirstLine="false" type="integer"/>
+<Field name="Amount" nullable="true" shift="0" skipFirstLine="false" type="number"/>
+<Field name="CustomerID" nullable="true" shift="0" skipFirstLine="false" type="integer"/>
+<Field name="CustomerState" nullable="true" shift="0" skipFirstLine="false" type="string"/>
+<Field name="CustomerSurname" nullable="true" shift="0" skipFirstLine="false" type="string"/>
+<Field name="CustomerFirstname" nullable="true" shift="0" skipFirstLine="false" type="string"/>
+<Field name="EmployeeID" nullable="true" shift="0" skipFirstLine="false" type="integer"/>
+<Field name="EmployeeSurname" nullable="true" shift="0" skipFirstLine="false" type="string"/>
+<Field name="EmployeeFirstname" nullable="true" shift="0" skipFirstLine="false" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="TransactionsForCustomers" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="CustomerState" type="string"/>
+<Field name="CustomerSurname" type="string"/>
+<Field name="CustomerFirstname" type="string"/>
+<Field name="NumberOfTransactions" type="integer"/>
+<Field format="0.00" locale="en" name="MinAmount" type="number"/>
+<Field format="0.00" locale="en" name="MaxAmount" type="number"/>
+<Field format="0.00" locale="en" name="AverageAmount" type="number"/>
+<Field format="0.00" locale="en" name="SumOfAmounts" type="number"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="TransactionsForEmployees" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="EmployeeSurname" type="string"/>
+<Field name="EmployeeFirstname" type="string"/>
+<Field name="NumberOfTransactions" type="integer"/>
+<Field format="0.00" locale="en" name="MinAmount" type="number"/>
+<Field format="0.00" locale="en" name="MaxAmount" type="number"/>
+<Field format="0.00" locale="en" name="AverageAmount" type="number"/>
+<Field format="0.00" locale="en" name="SumOfAmounts" type="number"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="TransactionsForStates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="CustomerState" type="string"/>
+<Field name="NumberOfTransactions" type="integer"/>
+<Field format="0.00" locale="en" name="MinAmount" type="number"/>
+<Field format="0.00" locale="en" name="MaxAmount" type="number"/>
+<Field format="0.00" locale="en" name="AverageAmount" type="number"/>
+<Field format="0.00" locale="en" name="SumOfAmounts" type="number"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter=";" name="TransactionsForStatesWithinEmployees" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="EmployeeSurname" type="string"/>
+<Field name="EmployeeFirstname" type="string"/>
+<Field name="CustomerState" type="string"/>
+<Field name="NumberOfTransactions" type="integer"/>
+<Field format="0.00" locale="en" name="MinAmount" type="number"/>
+<Field format="0.00" locale="en" name="MaxAmount" type="number"/>
+<Field format="0.00" locale="en" name="AverageAmount" type="number"/>
+<Field format="0.00" locale="en" name="SumOfAmounts" type="number"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" folded="false" height="171" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Fourth graph" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="1132" x="32" y="32">
+<attr name="text"><![CDATA[
+In the fourth graph, we calculate much useful statistical information about transactions. 
+In this graph, we use Aggregates to get this information. These components can use a key. For this reason, we had to sort data flows according to the same keys and remove duplicates (if needed) before these data flows could enter these Aggregates. 
+We have calculated many kinds of information in this graph. 
+As the first step, we needed to multiplicate the original data flow to more flow to parse them individualy so as to get individual statistical information.
+More detailed information about this graph can be found in the "readme.html" file included in the CompanyTransactionsTutorial directory.
+]]></attr>
+</Note>
+</Global>
+<Phase number="0">
+<Node aggregateKey="EmployeeSurname;EmployeeFirstname" enabled="enabled" guiHeight="0" guiName="Aggregate" guiWidth="0" guiX="816" guiY="325" id="AGGREGATE0" mapping="$EmployeeFirstname:=$EmployeeFirstname;$EmployeeSurname:=$EmployeeSurname;$NumberOfTransactions:=count();$MinAmount:=min($Amount);$MaxAmount:=max($Amount);$AverageAmount:=avg($Amount);$SumOfAmounts:=sum($Amount);" type="AGGREGATE"/>
+<Node aggregateKey="CustomerState" enabled="enabled" guiHeight="0" guiName="Aggregate" guiWidth="0" guiX="816" guiY="590" id="AGGREGATE1" mapping="$CustomerState:=$CustomerState;$NumberOfCustomers:=count();" type="AGGREGATE"/>
+<Node aggregateKey="CustomerState;CustomerSurname;CustomerFirstname" enabled="enabled" guiHeight="0" guiName="Aggregate" guiWidth="0" guiX="816" guiY="226" id="AGGREGATE2" mapping="$CustomerState:=$CustomerState;$CustomerSurname:=$CustomerSurname;$CustomerFirstname:=$CustomerFirstname;$NumberOfTransactions:=count();$MinAmount:=min($Amount);$MaxAmount:=max($Amount);$AverageAmount:=avg($Amount);$SumOfAmounts:=sum($Amount);" type="AGGREGATE"/>
+<Node aggregateKey="CustomerState" enabled="enabled" guiHeight="0" guiName="Aggregate" guiWidth="0" guiX="816" guiY="494" id="AGGREGATE3" mapping="$CustomerState:=$CustomerState;$NumberOfTransactions:=count();$MinAmount:=min($Amount);$MaxAmount:=max($Amount);$AverageAmount:=avg($Amount);$SumOfAmounts:=sum($Amount);" type="AGGREGATE"/>
+<Node aggregateKey="EmployeeSurname;EmployeeFirstname;CustomerState" enabled="enabled" guiHeight="0" guiName="Aggregate" guiWidth="0" guiX="816" guiY="409" id="AGGREGATE4" mapping="$EmployeeSurname:=$EmployeeSurname;$EmployeeFirstname:=$EmployeeFirstname;$CustomerState:=$CustomerState;$NumberOfTransactions:=count();$MinAmount:=min($Amount);$MaxAmount:=max($Amount);$AverageAmount:=avg($Amount);$SumOfAmounts:=sum($Amount);" type="AGGREGATE"/>
+<Node aggregateKey="CustomerID;CustomerState;CustomerSurname;CustomerFirstname" enabled="enabled" guiHeight="0" guiName="Aggregate" guiWidth="0" guiX="816" guiY="689" id="AGGREGATE5" mapping="$CustomerID:=$CustomerID;$CustomerState:=$CustomerState;$CustomerSurname:=$CustomerSurname;$CustomerFirstname:=$CustomerFirstname;$NumberOfEmployees:=count();" type="AGGREGATE"/>
+<Node aggregateKey="EmployeeID;EmployeeSurname;EmployeeFirstname" enabled="enabled" guiHeight="0" guiName="Aggregate" guiWidth="0" guiX="816" guiY="783" id="AGGREGATE6" mapping="$EmployeeID:=$EmployeeID;$EmployeeSurname:=$EmployeeSurname;$EmployeeFirstname:=$EmployeeFirstname;$NumberOfCustomers:=count();" type="AGGREGATE"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/Transactions.dat" guiHeight="0" guiName="TransactionsDelimited" guiWidth="0" guiX="47" guiY="369" id="DATA_READER0" skipFirstLine="true" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAOUT_DIR}/CustomersForStates.txt" guiHeight="0" guiName="CustomersForStates" guiWidth="0" guiX="1152" guiY="590" id="DATA_WRITER0" outputFieldNames="true" type="DATA_WRITER"/>
+<Node enabled="enabled" fileURL="${DATAOUT_DIR}/TransactionsForEmployees.txt" guiHeight="0" guiName="TransactionsForEmployees" guiWidth="0" guiX="1152" guiY="326" id="DATA_WRITER1" outputFieldNames="true" type="DATA_WRITER"/>
+<Node enabled="enabled" fileURL="${DATAOUT_DIR}/CustomersForEmployees.txt" guiHeight="0" guiName="CustomersForEmployees" guiWidth="0" guiX="1152" guiY="779" id="DATA_WRITER2" outputFieldNames="true" type="DATA_WRITER"/>
+<Node enabled="enabled" fileURL="${DATAOUT_DIR}/TransactionsForCustomers.txt" guiHeight="0" guiName="TransactionsForCustomers" guiWidth="0" guiX="1152" guiY="232" id="DATA_WRITER3" outputFieldNames="true" type="DATA_WRITER"/>
+<Node enabled="enabled" fileURL="${DATAOUT_DIR}/TransactionsForStates.txt" guiHeight="0" guiName="TransactionsForStates" guiWidth="0" guiX="1152" guiY="496" id="DATA_WRITER4" outputFieldNames="true" type="DATA_WRITER"/>
+<Node enabled="enabled" fileURL="${DATAOUT_DIR}/TransactionsForStatesWithinEmployees.txt" guiHeight="0" guiName="TransactionsForStatesWithinEmployees" guiWidth="0" guiX="1152" guiY="408" id="DATA_WRITER5" outputFieldNames="true" type="DATA_WRITER"/>
+<Node enabled="enabled" fileURL="${DATAOUT_DIR}/EmployeesForCustomers.txt" guiHeight="0" guiName="EmployeesForCustomers" guiWidth="0" guiX="1152" guiY="685" id="DATA_WRITER6" outputFieldNames="true" type="DATA_WRITER"/>
+<Node dedupKey="CustomerState;CustomerID" enabled="enabled" guiHeight="0" guiName="Dedup" guiWidth="0" guiX="646" guiY="590" id="DEDUP0" keep="first" type="DEDUP"/>
+<Node dedupKey="CustomerID;EmployeeID" enabled="enabled" guiHeight="0" guiName="Dedup" guiWidth="0" guiX="646" guiY="686" id="DEDUP1" keep="first" type="DEDUP"/>
+<Node dedupKey="EmployeeID;CustomerID" enabled="enabled" guiHeight="0" guiName="Dedup" guiWidth="0" guiX="646" guiY="792" id="DEDUP2" keep="first" type="DEDUP"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="471" guiY="589" id="EXT_SORT0" sortKey="CustomerState(a);CustomerID(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="560" guiY="321" id="EXT_SORT1" sortKey="EmployeeSurname(a);EmployeeFirstname(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="476" guiY="221" id="EXT_SORT2" sortKey="CustomerState(a);CustomerSurname(a);CustomerFirstname(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="572" guiY="494" id="EXT_SORT3" sortKey="CustomerState(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="609" guiY="408" id="EXT_SORT4" sortKey="EmployeeSurname(a);EmployeeFirstname(a);CustomerState(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="439" guiY="685" id="EXT_SORT5" sortKey="CustomerID(a);EmployeeID(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="984" guiY="690" id="EXT_SORT6" sortKey="CustomerState(a);CustomerSurname(a);CustomerFirstname(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="386" guiY="790" id="EXT_SORT7" sortKey="EmployeeID(a);CustomerID(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="ExtSort" guiWidth="0" guiX="984" guiY="782" id="EXT_SORT8" sortKey="EmployeeSurname(a);EmployeeFirstname(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiHeight="0" guiName="SimpleCopy" guiWidth="0" guiX="231" guiY="380" id="SIMPLE_COPY0" type="SIMPLE_COPY"/>
+<Edge debugMode="false" fromNode="AGGREGATE0:0" guiBendpoints="" id="Edge4" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="DATA_WRITER1:0"/>
+<Edge debugMode="false" fromNode="AGGREGATE1:0" guiBendpoints="" id="Edge21" inPort="Port 0 (in)" metadata="Metadata2" outPort="Port 0 (out)" toNode="DATA_WRITER0:0"/>
+<Edge debugMode="false" fromNode="AGGREGATE2:0" guiBendpoints="" id="Edge10" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (out)" toNode="DATA_WRITER3:0"/>
+<Edge debugMode="false" fromNode="AGGREGATE3:0" guiBendpoints="" id="Edge13" inPort="Port 0 (in)" metadata="Metadata4" outPort="Port 0 (out)" toNode="DATA_WRITER4:0"/>
+<Edge debugMode="false" fromNode="AGGREGATE4:0" guiBendpoints="" id="Edge17" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="DATA_WRITER5:0"/>
+<Edge debugMode="false" fromNode="AGGREGATE5:0" guiBendpoints="" id="Edge28" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 0 (out)" toNode="EXT_SORT6:0"/>
+<Edge debugMode="false" fromNode="AGGREGATE6:0" guiBendpoints="" id="Edge34" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="EXT_SORT8:0"/>
+<Edge debugMode="false" fromNode="DATA_READER0:0" guiBendpoints="" id="Edge30" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="SIMPLE_COPY0:0"/>
+<Edge debugMode="false" fromNode="DEDUP0:0" guiBendpoints="" id="Edge22" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (unique)" toNode="AGGREGATE1:0"/>
+<Edge debugMode="false" fromNode="DEDUP1:0" guiBendpoints="" id="Edge27" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (unique)" toNode="AGGREGATE5:0"/>
+<Edge debugMode="false" fromNode="DEDUP2:0" guiBendpoints="" id="Edge33" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (unique)" toNode="AGGREGATE6:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT0:0" guiBendpoints="" id="Edge18" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="DEDUP0:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT1:0" guiBendpoints="" id="Edge3" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="AGGREGATE0:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT2:0" guiBendpoints="" id="Edge8" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="AGGREGATE2:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT3:0" guiBendpoints="" id="Edge11" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="AGGREGATE3:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT4:0" guiBendpoints="" id="Edge15" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="AGGREGATE4:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT5:0" guiBendpoints="" id="Edge26" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="DEDUP1:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT6:0" guiBendpoints="" id="Edge31" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 0 (out)" toNode="DATA_WRITER6:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT7:0" guiBendpoints="" id="Edge32" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="DEDUP2:0"/>
+<Edge debugMode="false" fromNode="EXT_SORT8:0" guiBendpoints="" id="Edge35" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="DATA_WRITER2:0"/>
+<Edge fromNode="SIMPLE_COPY0:0" guiBendpoints="" id="Edge9" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="EXT_SORT2:0"/>
+<Edge fromNode="SIMPLE_COPY0:1" guiBendpoints="" id="Edge2" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 1 (out)" toNode="EXT_SORT1:0"/>
+<Edge fromNode="SIMPLE_COPY0:2" guiBendpoints="" id="Edge14" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 2 (out)" toNode="EXT_SORT4:0"/>
+<Edge fromNode="SIMPLE_COPY0:3" guiBendpoints="" id="Edge23" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 3 (out)" toNode="EXT_SORT3:0"/>
+<Edge fromNode="SIMPLE_COPY0:4" guiBendpoints="" id="Edge25" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 4 (out)" toNode="EXT_SORT0:0"/>
+<Edge fromNode="SIMPLE_COPY0:5" guiBendpoints="" id="Edge29" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 5 (out)" toNode="EXT_SORT5:0"/>
+<Edge fromNode="SIMPLE_COPY0:6" guiBendpoints="" id="Edge36" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 6 (out)" toNode="EXT_SORT7:0"/>
+</Phase>
+</Graph>
