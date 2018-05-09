@@ -200,3 +200,5 @@ cloveretl.server/lib.src/spring-context-support-4.3.16.RELEASE-sources.jar filte
 cloveretl.server/lib.src/spring-expression-4.3.16.RELEASE-sources.jar filter=lfs diff=lfs merge=lfs -text
 cloveretl.server/lib.src/spring-jdbc-4.3.16.RELEASE-sources.jar filter=lfs diff=lfs merge=lfs -text
 cloveretl.server/lib.src/spring-orm-4.3.16.RELEASE-sources.jar filter=lfs diff=lfs merge=lfs -text
+cloveretl.server/lib.src/spring-webmvc-4.3.16.RELEASE-sources.jar filter=lfs diff=lfs merge=lfs -text
+cloveretl.server/web/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar filter=lfs diff=lfs merge=lfs -text
