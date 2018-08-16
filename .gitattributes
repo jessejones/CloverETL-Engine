@@ -345,3 +345,5 @@ cloveretl.engine/lib/jaxb-api.jar filter=lfs diff=lfs merge=lfs -text
 cloveretl.engine/lib/jaxb-core.jar filter=lfs diff=lfs merge=lfs -text
 cloveretl.engine/lib/jaxb-impl.jar filter=lfs diff=lfs merge=lfs -text
 cloveretl.engine/lib/javax.activation-1.2.0.jar filter=lfs diff=lfs merge=lfs -text
+cloveretl.server/web/WEB-INF/lib/javax.activation-1.2.0.jar filter=lfs diff=lfs merge=lfs -text
+cloveretl.server/web/WEB-INF/lib/jsr181-api.jar filter=lfs diff=lfs merge=lfs -text
